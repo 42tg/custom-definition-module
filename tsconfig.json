@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist-ts",
+        "target": "esnext",
+        "allowJs": false,
+        "skipLibCheck": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "preserve",
+        "removeComments": false,
+        "declaration": true,
+        "declarationDir": "./src/@types/@myCustom/foo",
+        "emitDeclarationOnly": true
+        },
+    "include": [
+        "src"
+    ]
+}
